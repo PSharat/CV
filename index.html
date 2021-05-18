@@ -1,51 +1,61 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <title>Sharat Pasupuleti</title>
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Introduction + Paragraph + Heading + HyperLink -->
-  <img src="Images/ProfilePicture.png" alt="Sharat's Profile Picture">
-  <h1>Sharat's Personal Site</h1>
-  <p><em>Student at <strong><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjI9KLCwKXvAhVFILcAHa0mB90QFjAAegQIAxAE&url=https%3A%2F%2Fwww.bennett.edu.in%2F&usg=AOvVaw3teRSkQ3Hy8adzZhBQpQb5">Bennett
-          University</a></strong>.</em></p>
-  <p>I am a student at Bennett University majoring in Computer Science, specialising in Artificial Intelligence.</p>
-  <hr>
-  <!-- Education + Ordered List + Unordered List -->
-  <h3>Education</h3>
-  <ul>
-    <li>Primary and Secondary at <strong>Delhi Public School</strong></li>
-    <li>Higher Secondary at <strong>Oakridge International School</strong></li>
-    <li>University at <strong>Bennett University</strong></li>
-  </ul>
-  <hr>
-  <!-- Skills + Table -->
-  <h3>Skills</h3>
-  <table cellspacing = "10">
-    <tr>
-      <td>Python</td>
-      <td>⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>⭐️⭐️</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="Hobbies.html">My Hobbies</a>
-  <br>
-  <a href="Contact-Me.html">Contact Me</a>
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Sharat.</h1>
+    <h2>a <span>pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-picture"src="images/ProfilePicture.png" alt="Sharat's Profile Picture">
+      <h2>Hello.</h2>
+      <p class="intro">I am a student at Bennett University majoring in Computer Science, specialising in Artificial Intelligence.</</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="icon-1" src="images/web-programming.png" alt="web-programming">
+        <h3>Development</h3>
+        <p class="development-skill-description">I started to code fairly early in life but it's been going on and off till I realised developing websites and projects is something I'm into. </p>
+      </div>
+      <div class="skill-row">
+        <img class="icon-2" src="images/shuttlecock.png" alt="shuttlecock">
+        <h3>Badminton</h3>
+        <p class="badminton-skill-description">I've played almost all sports and badminton's always stayed with me as an essential part, doubles and singles are my forte.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love badminton and developing just as much as I do.</h3>
+      <p class="contact-message">Love badminton and developing as much as I do? Would love to talk about it.</p>
+      <a href="mailto:sharatp0910@gmail.com" class="btn">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2021 Sharat Pasupuleti.</p>
+  </div>
+
+
 </body>
 
 </html>
